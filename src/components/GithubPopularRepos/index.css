@@ -1,0 +1,48 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mainheading {
+  font-family: lobster;
+  color: #0f172a;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.languageContainer {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reposContainer {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.failureContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.failureimg {
+  width: 70%;
+  margin-top: 30px;
+  max-width: 650px;
+}
+
+.failureheading {
+  color: #0f172a;
+  font-family: lobster;
+  font-weight: 600;
+  font-size: 25px;
+}
